@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 45%;
+    height: 80%;
+}
+
+html, body {
+    background-color: rgb(255, 255, 255);
+   overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: -10;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    font-size: 17px;
+    align-items: center;
+    gap: 5px;
+}
+
+.Homepagelink {
+    position: absolute;
+    bottom: 12px; /* Moves it 50px from the bottom */
+    left: 0.6%;
+    /* transform: translateX(-50%); Centers it perfectly */
+}
+
+li {
+  /* border: 2px solid rgb(0, 0, 0); */
+  height: 100px;
+  width: 250px;
+        /* color: white;
+        border-radius: 2px; */
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+    
+}
+li:hover {
+    /* height: 150px;
+    width: 300px; */
+    transform: scale(1.2);
+    font-size: 25px;
+    /* border-radius: 2px; */
+    /* display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    transition: transform 0.3s ease, font-size 0.3s ease; */       
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+   
+}
+a:hover{
+    color: black;
+    font-size: 13px;
+}
+
+body {
+    cursor: url('StarCursor32.png') 10 10, auto; 
+}
+
+
+br{
+    color: #868686;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+
+br, a, button { 
+    cursor: url('StarCursor32.png'), auto !important; 
+    color: #000000
+    
+}
+.Homepagelink:hover {
+    font-size: inherit; 
+}

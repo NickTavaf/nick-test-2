@@ -1,0 +1,64 @@
+
+
+html, body {
+    background-color:rgb(1, 0, 24 );
+    cursor: url('StarCursorBlack32.png') 10 10, auto;
+    /* background-repeat: repeat-x; */
+}
+
+
+
+br, a, button { 
+    cursor: url('StarCursorBlack32.png'), auto !important; 
+}
+
+/* h3 {
+    color: white;
+    font-size: 20px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1.6; 
+    max-width: 60%; 
+    margin: 0 auto; 
+} */
+
+.Homepagelink {
+    position: absolute;
+    bottom: 12px; /* Moves it 50px from the bottom */
+    left: 0.6%;
+    /* transform: translateX(-50%); Centers it perfectly */
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 66vh; 
+}
+br{
+ 
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 13px; 
+
+}
+br{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    font-size: 13px; 
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white
+}
+a:hover{
+    color: rgb(154, 153, 153);
+}
