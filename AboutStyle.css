@@ -21,7 +21,7 @@ br, a, button {
 
 h3 {
     color: white;
-    font-size: 20px; 
+    font-size: 35px; 
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
     font-weight: lighter;
@@ -33,6 +33,28 @@ h3 {
 .side-content{
     display: flex;
 }
+
+
+ul {
+    list-style: none;
+    padding: -10;
+    display: flex;
+    flex-direction: column; 
+    font-size: 35px;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+a:hover {
+    transform: scale(1.2);
+    color: black;
+    font-size: 30px;
+    
+}
+
+li {
+    margin-bottom: 20px; 
+}
+
 
 .middle-content {
     display: flex;

@@ -33,8 +33,9 @@ ul {
     padding: -10;
     display: flex;
     flex-direction: column; 
-    font-size: 17px;
+    font-size: 25px;
     align-items: flex-end;
+    margin-top: 5px;
 }
 
 li {
@@ -57,7 +58,7 @@ a {
 a:hover {
     transform: scale(1.2);
     color: black;
-    font-size: 25px;
+    font-size: 35px;
     
 }
 body {
